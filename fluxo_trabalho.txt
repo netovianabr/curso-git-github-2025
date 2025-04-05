@@ -1,0 +1,9 @@
+1 - Criar o diretório do projeto
+2 - Iniciar o git dentro do diretório criado (git init .)
+3 - Editar ou criar arquivos
+4 - Verificar o status do git (git status)
+5 - Adicionar arquivos para commitar (git add .)
+6 - Verificar o status do git (git status)
+7 - Commitar arquivos adicionados (git commit -m "mensagem"
+8 - Verificar o status do git (git status)
+9 - Voltar para o passo 3
