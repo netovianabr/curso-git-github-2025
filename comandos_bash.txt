@@ -1,0 +1,3 @@
+ls - Listar aquivos
+cd - move entre diretórios
+pwd - Mostra diretório de trabalho
