@@ -1,3 +1,6 @@
-ls - Listar aquivos
-cd - move entre diretórios
-pwd - Mostra diretório de trabalho
+ls    -  Listar arquivos
+cd    -  Move entre diretórios
+pwd   -  Mostra diretório de trabalho
+mkdir -  Cria diretórios
+cat   -  Exibe conteúdo ou diretório
+rm    -  Remove arquivos ou diretórios
