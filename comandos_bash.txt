@@ -1,6 +1,7 @@
-ls    -  Listar arquivos
-cd    -  Move entre diretórios
-pwd   -  Mostra diretório de trabalho
-mkdir -  Cria diretórios
-cat   -  Exibe conteúdo ou diretório
-rm    -  Remove arquivos ou diretórios
+ls	- Listar arquivos
+cd	- Move entre diretórios
+pwd	- Mostra diretório de trabalho
+mkdir	- Cria diretórios
+cat	- Exibe conteúdo ou diretório
+rm	- Remove arquivos ou diretórios
+rm -rf	- Remove de forma recursiva e forçada
