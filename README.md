@@ -2,54 +2,46 @@
 
 Um curso para iniciantes aprenderem a trabalhar com versionamento de código e repositórios remotos com GitHub.
 
-Além disso, vamos trabalhar com GitFlow ao final do curso e Visual Studio Code.
+Além disso, vamos trabalhar com **GitFlow** e **Visual Studio Code**.
 
-Confira tudo o que temos no nosso YouTube. É gratis! Segue o link:
+## Fluxo de Trabalho Git Local
 
-[Curso Git 2025](https://youtube.com/@teomewhy)
+1. `git checkout -b <nova-branch>`
+2. Cria ou atualiza arquivos
+3. `git status`
+4. `git add <arquivos>`
+5. `git status`
+6. `git commit -m "<minha mensagem>"`
+7. `git checkout main`
+8. `git merge nova_branch`
 
-Além do nosso YouTube, se ligue no nosso site e agenda para ficar por dentro de tudo que vai rolar em 2025.
+## Fluxo de Trabalho GitHub <> Local (Projeto Próprio ou da Sua Empresa)
 
-Conheça nosso site: [teomewhy.org](https://teomewhy.org/schedule)
+1. `git clone <endereco-do-projeto>`
+2. `git checkout -b <nova_branch>`
+3. Alterações de arquivos
+4. `git status`
+5. `git add <arquivos>`
+6. `git status`
+7. `git commit -m "<nova mensagem>"`
+8. `git push origin <nova_branch>`
+9. Abrir Pull Request no GitHub para `main`
+10. Excluir `<nova_branch>` do remoto (`origin`)
+11. `git checkout main`
+12. `git branch -D <nova_branch>`
 
-Apoie nosso projeto no [Apoia-se](apoia.se/teomewhy)
+## Fluxo de Trabalho GitHub <> Local (Projetos Open-Source)
 
-## Fluxo de trabalho Git local
-
-01. git checkout -b <nova-branch>
-02. cria ou atualiza arquivos
-03. git status
-05. git add *arquivos*
-06. git status
-07. git commit -m "minha mensagem"
-08. git checkout main
-09. git merge nova_branch
-
-## Fluxo de trabalho GitHub <> Local (projeto próprio ou da sua empresa)
-01. git clone <endereco do projeto>
-02. git checkout -b <nova_branch>
-03. alterações de arquivos
-04. git status
-05. git add *arquivos*
-06. git status
-07. git commit -m "nova mensagem"
-08. git push origin <nova_branch>
-09. abrir Pull request no GitHub para main
-10. excluir <nova_branch> origin
-11. git checkout main
-12. git branch -D <nova_branch>
-
-## Fluxo de trabalho GitHub <> Local (projetos open-source)
-01. Fork do projeto para seu próprio github
-02. git clone <endereco do projeto fork>
-03. git checkout -b <nova_branch>
-04. alterações de arquivos
-05. git status
-06. git add *arquivos*
-07. git status
-08. git commit -m "nova mensagem"
-09. git push origin <nova_branch>
-10. abrir Pull request no GitHub da branch fork para a main do projeto original
-11. excluir <nova_branch> origin
-12. git checkout main
-13. git branch -D <nova_branch>
+1. **Fork** do projeto para seu próprio GitHub
+2. `git clone <endereco-do-projeto-fork>`
+3. `git checkout -b <nova_branch>`
+4. Alterações de arquivos
+5. `git status`
+6. `git add <arquivos>`
+7. `git status`
+8. `git commit -m "<nova mensagem>"`
+9. `git push origin <nova_branch>`
+10. Abrir Pull Request no GitHub da branch fork para a `main` do projeto original
+11. Excluir `<nova_branch>` do remoto (`origin`)
+12. `git checkout main`
+13. `git branch -D <nova_branch>`

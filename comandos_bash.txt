@@ -1,7 +1,41 @@
-ls	- Listar arquivos
-cd	- Move entre diretórios
-pwd	- Mostra diretório de trabalho
-mkdir	- Cria diretórios
-cat	- Exibe conteúdo ou diretório
-rm	- Remove arquivos ou diretórios
-rm -rf	- Remove de forma recursiva e forçada
+# Comandos Bash
+
+## Manipulação de Arquivos e Diretórios
+- `ls` – Lista arquivos e diretórios.
+- `cd` – Navega entre diretórios.
+- `pwd` – Exibe o diretório atual.
+- `mkdir` – Cria um novo diretório.
+- `rm` – Remove arquivos ou diretórios.
+- `cp` – Copia arquivos ou diretórios.
+- `mv` – Move ou renomeia arquivos.
+
+## Gerenciamento de Processos
+- `ps` – Exibe processos em execução.
+- `top` – Mostra processos ativos em tempo real.
+- `kill` – Finaliza um processo pelo ID.
+- `jobs` – Exibe processos em segundo plano.
+- `bg` – Move um processo para execução em segundo plano.
+- `fg` – Traz um processo de segundo plano para primeiro plano.
+
+## Permissões e Usuários
+- `chmod` – Altera permissões de arquivos.
+- `chown` – Modifica o dono de um arquivo.
+- `su` – Troca de usuário.
+- `sudo` – Executa comandos com privilégios de administrador.
+
+## Redirecionamento e Pipelines
+- `>` – Redireciona a saída de um comando para um arquivo.
+- `>>` – Acrescenta a saída ao final de um arquivo.
+- `<` – Usa um arquivo como entrada para um comando.
+- `|` – Conecta a saída de um comando à entrada de outro.
+
+## Pesquisa e Manipulação de Texto
+- `grep` – Pesquisa padrões dentro de arquivos.
+- `sed` – Edita texto baseado em padrões.
+- `awk` – Processa e manipula dados de texto.
+
+## Rede e Conectividade
+- `ping` – Testa conexão com um endereço IP ou domínio.
+- `curl` – Faz requisições HTTP.
+- `wget` – Baixa arquivos da internet.
+- `netstat` – Mostra conexões de rede ativas.

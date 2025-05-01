@@ -1,5 +1,45 @@
-git init .		-  Cria um repositório git na pasta atual 
-git status   		-  Mostra o status do trabalho de cada arquivo
-git add nome_arquivo    -  Adiciona arquivo para ser commitado
-git commit -m "msg"- 	-  Faz commit do que estava para ser commitado
-git log			-  Mostra todo o histórico de commit
+# Comandos Git
+
+## Configuração Inicial
+- `git config --global user.name "Seu Nome"` – Define o nome do usuário globalmente.
+- `git config --global user.email "seu@email.com"` – Configura o e-mail do usuário globalmente.
+- `git init` – Inicializa um novo repositório Git.
+- `git clone <url>` – Clona um repositório remoto para a máquina local.
+
+## Controle de Versão
+- `git status` – Exibe o estado dos arquivos no repositório.
+- `git add <arquivo>` – Adiciona um arquivo ao stage.
+- `git add .` – Adiciona todos os arquivos ao stage.
+- `git commit -m "Mensagem"` – Realiza um commit com uma mensagem descritiva.
+- `git log` – Exibe o histórico de commits.
+
+## Branches e Fusões
+- `git branch` – Lista branches existentes.
+- `git branch <nome>` – Cria uma nova branch.
+- `git checkout <branch>` – Alterna para uma branch específica.
+- `git checkout -b <nome>` – Cria e muda para uma nova branch.
+- `git merge <branch>` – Mescla uma branch à branch ativa.
+- `git rebase <branch>` – Reaplica commits de uma branch sobre outra.
+
+## Repositórios Remotos
+- `git remote -v` – Lista repositórios remotos configurados.
+- `git remote add <nome> <url>` – Adiciona um repositório remoto.
+- `git fetch <remoto>` – Obtém alterações do repositório remoto.
+- `git pull <remoto> <branch>` – Baixa e incorpora mudanças do remoto.
+- `git push <remoto> <branch>` – Envia mudanças locais para o remoto.
+
+## Manipulação de Histórico
+- `git reset --hard <commit>` – Reseta para um commit específico, descartando mudanças.
+- `git revert <commit>` – Cria um novo commit que desfaz um commit anterior.
+- `git stash` – Armazena mudanças temporariamente.
+- `git stash pop` – Recupera mudanças armazenadas.
+
+## Comparação e Diferenciação
+- `git diff` – Mostra diferenças entre arquivos.
+- `git diff <commit1> <commit2>` – Compara dois commits específicos.
+- `git show <commit>` – Exibe detalhes de um commit.
+
+## Outros Comandos Úteis
+- `git tag <nome>` – Cria uma tag em um commit.
+- `git cherry-pick <commit>` – Aplica um commit específico em outra branch.
+- `git shortlog` – Exibe um resumo de contribuições por autor.
